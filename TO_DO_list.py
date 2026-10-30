@@ -47,7 +47,7 @@ while True:
             print("3. Print TO-DO list")
             print("4. Print Command menu")
 
-    elif operation == "QUIT" or operation == "quit" or operation == "Quit":
+    elif operation.upper() == "QUIT":
         break
     else:
         print("Invalid command, choose command from command menu:")
